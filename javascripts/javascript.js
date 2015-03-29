@@ -1,2 +1,2 @@
 // Initialize collapse button
-  $(".button-collapse").sideNav({menuWidth: 320});
+$(".button-collapse").sideNav({menuWidth: 320});
