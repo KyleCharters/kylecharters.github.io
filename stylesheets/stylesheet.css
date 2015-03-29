@@ -1,34 +1,55 @@
-a
-{
-  color: #E0E0E0;
+html{
+  position: relative;
+  min-height: 100%;
+  background-color: #F5F5F5;
 }
 
-.redLink
+header
 {
-  color: #F44336;
-}
-
-.header
-{
-  text-align: center;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-left: 320px;
+  background-color: #212121;
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
   margin-bottom: 25px;
 }
 
-.header h1
+main
 {
+  padding-left: 320px;
+}
+
+footer
+{
+  padding-left: 320px;
+  background-color: #212121;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer h5
+{
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #F5F5F5;
+}
+
+h1
+{
+  font-size: 50px;
   font-weight: 100;
   text-transform: uppercase;
 }
 
-.footer{
-  position: fixed;
-  bottom: 0px;
+.fit{
+  position: absolute;
+  height: 100%;
   width: 100%;
-
-  color: #E0E0E0;
-  font-weight: 200;
-  text-transform: uppercase;
-  text-align: center;
+  top: 0;
+  left: 320;
+  overflow: hidden;
 }
