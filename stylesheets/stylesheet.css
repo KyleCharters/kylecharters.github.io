@@ -5,29 +5,13 @@ html{
   background-repeat: repeat;
 }
 
-h1, h2, h3, h4, h5, h6
-{
-  margin: 0;
-  font-weight: 100;
-  text-transform: uppercase;
-}
-
-h1
-{
-  font-size: 50px;
-}
-
-h6
-{
-  font-size: 15px;
-}
-
 header
 {
   background-color: #F5F5F5;
   width: 100%;
   top: 0;
 
+  text-align: center;
   padding-left: 30px;
   margin-bottom: 25px;
 }
@@ -55,7 +39,34 @@ footer
   width: 100%;
 }
 
-.with-margin
+h1, h2, h3, h4, h5, h6
+{
+  margin: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h1
+{
+  font-size: 50px;
+}
+
+h6
+{
+  font-size: 15px;
+}
+
+hr
+{
+  width: 280px;
+}
+
+.mobile-wrapper
+{
+
+}
+
+.add-margin
 {
   margin-top: 15px;
   margin-bottom: 15px;

@@ -3,6 +3,7 @@
   <head>
     <title>Kyle Charters</title>
     <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="theme-color" content="#212121">
 
     <!--Import stylesheets-->
     <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css" media="screen,projection">
@@ -10,22 +11,22 @@
 
     <!--Set screen dimensions-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-
-    <ul id="slide-out" class="side-nav fixed grey lighten-4" style="width: 320px;">
+  </head>
+  <body>
+    <!--Left navigation bar-->
+    <ul id="slide-out" class="side-nav fixed" style="width: 320px;">
       <li>
-        <a id="logo-container" href="" class="brand-logo">
-          <h1 class="center-align with-margin">Kyle <strong>Charters</strong></h1>
-        </a>
+        <a href=""><h1 class="center-align add-margin">Kyle <strong>Charters</strong></h1></a>
       </li>
-      <hr>
+      <hr size="30px">
       <li>
         <a href="prefixed/">
-          <h1 class="red-text center-align with-margin">Prefixed</h1>
+          <h1 class="red-text center-align add-margin">Prefixed</h1>
         </a>
       </li>
       <li>
         <a href="ascendance/">
-          <h1 class="purple-text center-align with-margin" style="font-size: 40px;">Ascendance</h1>
+          <h1 class="purple-text center-align add-margin" style="font-size: 40px;">Ascendance</h1>
         </a>
       </li>
       <li style="width: 320px; position: fixed; bottom: 0;">
@@ -34,20 +35,15 @@
         </a>
       </li>
     </ul>
-  </head>
 
-  <body>
-    <!--Import javascript files-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="javascripts/materialize.min.js"></script>
-    <script type="text/javascript" src="javascripts/javascript.js"></script>
-
+    <!--Main-->
     <main class="side-nav-effect valign-wrapper" style="height: 100%;">
       <div class="container">
         <h1 class="valign">Nothing to see here, Move on</h1>
       </div>
     </main>
 
+    <!--Footer-->
     <footer class="side-nav-effect z-depth-1">
       <h6 style="float:left; margin-left: 5px;">© 2015 Kyle Charters</h6>
       <h6 style="float:right;">
@@ -57,5 +53,10 @@
         </a>
       </h6>
     </footer>
+
+    <!--Import Javascripts-->
+    <script type="text/javascript" src="javascripts/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="javascripts/materialize.min.js"></script>
+    <script type="text/javascript" src="javascripts/javascript.js"></script>
   </body>
 </html>
