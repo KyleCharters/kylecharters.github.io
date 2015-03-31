@@ -1,4 +1,5 @@
-html{
+html
+{
   min-height: 100%;
   background-image: url(../images/Tile.png);
   background-repeat: repeat;
@@ -38,12 +39,15 @@ footer
   width: 100%;
 }
 
-header[sidenav], main[sidenav], footer[sidenav]{
+header[sidenav], main[sidenav], footer[sidenav]
+{
   padding-left: 320px;
 }
 
-@media only screen and (max-width : 992px) {
-  header[sidenav], main[sidenav], footer[sidenav] {
+@media only screen and (max-width : 992px)
+{
+  header[sidenav], main[sidenav], footer[sidenav]
+  {
     padding-left: 0;
   }
 }
