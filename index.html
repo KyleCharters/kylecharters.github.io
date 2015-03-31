@@ -12,11 +12,15 @@
     <!--Set screen dimensions-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
   </head>
+
+
   <body>
     <!--Left navigation bar-->
-    <ul id="slide-out" class="side-nav fixed" style="width: 320px;">
+    <ul id="slide-out" class="side-nav fixed" style="width: 320px; overflow-y: auto;">
       <li>
-        <a href=""><h1 class="center-align add-margin">Kyle <strong>Charters</strong></h1></a>
+        <a href="https://github.com/KyleCharters">
+          <h1 class="center-align add-margin">Kyle <strong>Charters</strong></h1>
+        </a>
       </li>
       <hr size="30px">
       <li>
@@ -29,22 +33,21 @@
           <h1 class="purple-text center-align add-margin" style="font-size: 40px;">Ascendance</h1>
         </a>
       </li>
-      <li style="width: 320px; position: fixed; bottom: 0;">
-        <a href="https://github.com/KyleCharters">
-          <h5 class="center-align">Fork me on github</h5>
-        </a>
-      </li>
     </ul>
+    <!--Mobile Button-->
+    <a data-activates="slide-out" class="button-collapse">
+      <img class="top-left-button" src="images/Mobile.png">
+    </a>
 
     <!--Main-->
-    <main class="side-nav-effect valign-wrapper" style="height: 100%;">
+    <main class="valign-wrapper" style="height: 100%;" sidenav>
       <div class="container">
         <h1 class="valign">Nothing to see here, Move on</h1>
       </div>
     </main>
 
     <!--Footer-->
-    <footer class="side-nav-effect z-depth-1">
+    <footer class="z-depth-1" sidenav>
       <h6 style="float:left; margin-left: 5px;">© 2015 Kyle Charters</h6>
       <h6 style="float:right;">
         Hosted with
