@@ -70,13 +70,11 @@ hr
   width: 280px;
 }
 
-#top-left-button
+.top-left-button
 {
   position: fixed;
   top: 5px;
   left: 5px;
-  width: 70px;
-  height: 70px;
   z-index: 1;
 }
 
