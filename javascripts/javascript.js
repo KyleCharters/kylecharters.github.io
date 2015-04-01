@@ -1,2 +1,9 @@
-// Initialize collapse button
-$('.button-collapse').sideNav({menuWidth: 320, activationWidth: 70});
+/*jslint browser: true*/
+/*global $*/
+
+// Initialize Collapse Button
+$('.button-collapse').sideNav({activationWidth: 50});
+// Initialize Tabs
+$(document).ready(function(){
+  $('ul.tabs').tabs();
+});

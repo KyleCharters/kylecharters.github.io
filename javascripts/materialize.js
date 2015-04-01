@@ -1685,7 +1685,7 @@ $(document).ready(function(){
   var methods = {
     init : function(options) {
       var defaults = {
-        menuWidth: 240,
+        menuWidth: 320 ,
         edge: 'left',
         closeOnClick: false
       }
@@ -1696,7 +1696,7 @@ $(document).ready(function(){
         var menu_id = $("#"+ $this.attr('data-activates'));
 
         // Set to width
-        if (options.menuWidth != 240) {
+        if (options.menuWidth != 320) {
           menu_id.css('width', options.menuWidth);
           if (!menu_id.hasClass('fixed')) {
             menu_id.css('left', -1 * (options.menuWidth + 10));
@@ -1840,7 +1840,7 @@ $(document).ready(function(){
                 $('.drag-target').css({width: '50%', right: 0, left: ''});
               }
               else if (!menuOut || velocityX > 0.3) {
-                menu_id.velocity({left: -240}, {duration: 300, queue: false, easing: 'easeOutQuad'});
+                menu_id.velocity({left: -320}, {duration: 300, queue: false, easing: 'easeOutQuad'});
                 $('#sidenav-overlay').velocity({opacity: 0 }, {duration: 50, queue: false, easing: 'easeOutQuad',
                   complete: function () {
                     $(this).remove();
@@ -1855,7 +1855,7 @@ $(document).ready(function(){
                 $('.drag-target').css({width: '50%', right: '', left: 0});
               }
               else if (!menuOut || velocityX < -0.3) {
-                menu_id.velocity({right: -240}, {duration: 300, queue: false, easing: 'easeOutQuad'});
+                menu_id.velocity({right: -320}, {duration: 300, queue: false, easing: 'easeOutQuad'});
                 $('#sidenav-overlay').velocity({opacity: 0 }, {duration: 50, queue: false, easing: 'easeOutQuad',
                   complete: function () {
                     $(this).remove();

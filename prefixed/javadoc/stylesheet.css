@@ -572,3 +572,11 @@ div.block div.block span.interfaceName {
 div.contentContainer ul.blockList li.blockList h2{
     padding-bottom:0px;
 }
+
+img
+{
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  height: 2.8em;
+}
