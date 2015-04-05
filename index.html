@@ -36,14 +36,30 @@
       </li>
     </ul>
     <!--Mobile Button-->
-    <a data-activates="slide-out" class="button-collapse">
+    <a href="#sidenav" data-activates="slide-out" class="button-collapse">
       <img class="top-left-button" src="images/Mobile.png">
     </a>
 
     <!--Main-->
     <main class="valign-wrapper" style="height: 100%;" sidenav>
       <div class="container">
-        <h1 class="valign">Nothing to see here, Move on</h1>
+
+        <h1 class="valign">Nothing to see here, <a href="#video" onclick="toggleVideo()">move</a> on</h1>
+
+        <div id="toggleablecontainer"></div>
+
+        <script>
+          // Initialize Iframe
+          function toggleVideo(){
+            var container = $("#toggleablecontainer");
+
+            if(!container.find('#toggleable').length){
+              container.append('<div id="toggleable" class="video-container"><iframe src="https://www.youtube.com/embed/EeObu0jfSxE" frameborder="0" allowfullscreen></iframe></div>');
+            }else{
+              container.find('#toggleable').remove();
+            }
+          }
+        </script>
       </div>
     </main>
 
@@ -59,7 +75,7 @@
     </footer>
 
     <!--Import Javascripts-->
-    <script type="text/javascript" src="javascripts/jquery-2.1.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="javascripts/materialize.min.js"></script>
     <script type="text/javascript" src="javascripts/javascript.js"></script>
   </body>
