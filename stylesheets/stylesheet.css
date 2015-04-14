@@ -5,13 +5,22 @@ html
   background-repeat: repeat;
 }
 
-header[sidenav], main[sidenav], footer[sidenav]{
+header[sidenav], main[sidenav], footer[sidenav]
+{
   padding-left: 320px;
 }
 
 @media only screen and (max-width : 992px) {
-  header[sidenav], main[sidenav], footer[sidenav] {
+  header[sidenav], main[sidenav], footer[sidenav]
+  {
     padding-left: 0;
+  }
+}
+
+@media only screen and (max-width : 496px) {
+  header
+  {
+    padding-top: 70px;
   }
 }
 
@@ -19,7 +28,6 @@ header
 {
   background-color: #F5F5F5;
   width: 100%;
-  top: 0;
 
   text-align: center;
   margin-bottom: 50px;
@@ -46,6 +54,7 @@ footer
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -88,10 +97,16 @@ hr
 
 .top-left-button
 {
-  position: fixed;
+  position: absolute;
   top: 5px;
   left: 5px;
   z-index: 1;
+}
+
+.full-button
+{
+  width: 100%;
+  margin-bottom: 35px;
 }
 
 .add-margin
