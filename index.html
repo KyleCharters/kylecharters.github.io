@@ -48,22 +48,7 @@
     <!--Main-->
     <main class="valign-wrapper" style="height: 100%;" sidenav>
       <div class="container valign">
-        <h1>Nothing to see here, <a href="#video" onclick="toggleVideo()">move</a> on</h1>
-
-        <div id="toggleablecontainer"></div>
-
-        <script>
-          // Initialize Iframe
-          function toggleVideo(){
-            var container = $("#toggleablecontainer");
-
-            if(!container.find('#toggleable').length){
-              container.append('<br><div id="toggleable" class="video-container"><iframe src="https://www.youtube.com/embed/EeObu0jfSxE" frameborder="0" allowfullscreen></iframe></div>');
-            }else{
-              container.find('#toggleable').remove();
-            }
-          }
-        </script>
+        <h1>Nothing to see here, move on</h1>
       </div>
     </main>
 
