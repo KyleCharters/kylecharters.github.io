@@ -37,6 +37,7 @@ main
 {
   width: 100%;
   position: absolute;
+  margin-bottom: 30px;
 
   text-align: center;
   font-weight: 100;
@@ -55,6 +56,12 @@ footer
   bottom: 0;
   width: 100%;
   z-index: 1;
+}
+
+footer h6
+{
+  font-size: 12px;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -76,7 +83,7 @@ h2
 
 h6
 {
-  font-size: 12px;
+  font-weight: 300;
 }
 
 a
@@ -87,12 +94,23 @@ a
 hr
 {
   width: 280px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.full-size-center
+.bold
 {
-  width: 100%;
-  text-align: center;
+  font-weight: 400;
+}
+
+.connect
+{
+  display: inline;
+}
+
+.double-space
+{
+  line-height: 1.5em;
 }
 
 .top-left-button
@@ -106,10 +124,9 @@ hr
 .full-button
 {
   width: 100%;
-  margin-bottom: 35px;
 }
 
-.add-margin
+.menu-button
 {
   margin-top: 15px;
   margin-bottom: 15px;
