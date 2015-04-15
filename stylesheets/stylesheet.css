@@ -98,6 +98,11 @@ hr
   margin-bottom: 50px;
 }
 
+hr.full
+{
+  width: 100%;
+}
+
 .bold
 {
   font-weight: 400;
