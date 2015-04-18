@@ -21,12 +21,12 @@
         <img class="top-left-button" src="../images/Home.png">
       </a>
 
-      <img src="../images/Prefixed.png" style="height: 60px; margin-top: 5px;">
+      <img src="../images/Prefixed.png" style="height: 60px; margin-top: 5px;" id="title">
 
       <div class="row">
         <ul class="tabs" style="background-color: #F44336;">
-          <li class="tab col"><a href="#links">Prefixed Links</a></li>
-          <li class="tab col"><a href="#versions">Version History</a></li>
+          <li class="tab col"><a href="#prefixed" onclick='changeTitle("../images/Prefixed.png")'>Prefixed</a></li>
+          <li class="tab col"><a href="#lite" onclick='changeTitle("../images/PrefixedLite.png")'>Prefixed Lite</a></li>
         </ul>
       </div>
     </header>
@@ -34,22 +34,32 @@
     <!--Main-->
     <main>
       <div class="container">
-        <div id="links">
-          <div class="collection">
+        <div id="prefixed">
+          <div class="collection z-depth-1">
             <a href="javadoc/" class="collection-item waves-effect red-text text-darken-3 bold">Javadoc</a>
             <a href="https://github.com/KyleCharters/Prefixed/" class="collection-item waves-effect red-text text-darken-3 bold">Repository</a>
             <a href="https://github.com/KyleCharters/Prefixed/wiki/" class="collection-item waves-effect red-text text-darken-3 bold">API</a>
             <a href="http://dev.bukkit.org/bukkit-plugins/prefixed/" class="collection-item waves-effect red-text text-darken-3 bold">BukkitDev Page</a>
             <a href="http://mcstats.org/plugin/Prefixed/" class="collection-item waves-effect red-text text-darken-3 bold">Metrics</a>
           </div>
+
+          <div class="collection z-depth-1">
+            <a href="http://dev.bukkit.org/bukkit-plugins/prefixed/files/18-prefixed-4-1/" class="collection-item waves-effect red-text text-darken-3 bold">Download</a>
+          </div>
         </div>
 
-        <div id="versions">
-          <h1>Version History</h1>
+        <div id="lite">
+          <div class="card-panel white grey-text text-darken-4 z-depth-1">
+            <h6 class="text-height-plus">
+              Prefixed Lite is a branch of prefixed designed to be lightweight and compact.
+              <br>
+              <strong>THIS VERSION OF PREFIXED DOES NOT SUPPORT CUSOM PREFIXES/SUFFIXES, AS WELL AS THE PREFIXED API.</strong>
+            </h6>
+          </div>
 
-          <hr class="z-depth-3">
-
-          <h5>Under Development.</h5>
+          <div class="collection z-depth-1">
+            <a href="http://dev.bukkit.org/bukkit-plugins/prefixed/files/19-prefixed-lite-1-0/" class="collection-item waves-effect grey-text text-darken-4 bold">Download</a>
+          </div>
         </div>
       </div>
     </main>

@@ -1,6 +1,7 @@
 html
 {
   min-height: 100%;
+  max-width: 100%;
   background-image: url(../images/Tile.png);
   background-repeat: repeat;
 }
@@ -135,4 +136,26 @@ hr.full
 {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.gallery
+{
+  width: 100%;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  align-content: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.gallery img
+{
+  border: 20px solid #212121;
+  margin: 5px;
+  height: 240px;
 }

@@ -1,10 +1,18 @@
 /*jslint browser: true*/
 /*global $*/
 
-// Initialize Tabs
+// Initialize
 $(document).ready(function(){
-  $('ul.tabs').tabs();
+  $('.materialboxed').materialbox();
 });
+
+//Initialize Tabs
+$('ul.tabs').tabs();
 
 // Initialize Collapse Button
 $('.button-collapse').sideNav({activationWidth: 50});
+
+
+function changeTitle(a){
+  document.getElementById("title").src = a;
+}
